@@ -1,0 +1,147 @@
+            @media screen and (max-width: 600px) {
+                header {
+                    margin-top: 94%;
+                }
+                #section04 {
+                    margin-bottom: 100rem;
+                }
+                .progress_inner__tabs .tab p {
+                    font-size: 200%;
+                }
+                .progress_inner {
+                    width: 176%;
+                    margin-left: -24%;
+                    margin-top: 32%;
+                }
+                    .progress_inner__step label {
+                        font-size: 30px;
+                    }
+                .scrolltext {
+                    width: 104px;
+                    float: left;
+                    margin-top: -135px;
+                    margin-left: -38px;
+                }
+                .addheading {
+                    display: block;
+                    width: 100%;
+                    height: 10vh;
+                    /* margin-top: 20px; */
+                    background-color: honeydew;
+                    border-radius: 0% 0% 0% 50%;
+                }
+                div.container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 0px !important;
+                    height: 16rem;
+                    margin-top: -35rem;
+                }
+                .afterhidden {
+                    display: none;
+                }
+                .content1 {
+                    display: none;
+                }
+                .sign {
+                    display: none;
+                }
+                #formobile {
+                    visibility: visible;
+                    display: flex;
+                    align-items: center;
+                    top: 111%;
+                }
+                .signe {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 170rem;
+                }
+                .container1 .box {
+                    margin-left: 0 !important;
+                    top: -25rem;
+                    /* position: fixed; */
+                }
+                .console-container {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    top: 8rem;
+                    left: -18rem;
+                }
+                #line-c {
+                    transform: rotate( 147deg);
+                    max-width: 53%;
+                    right: 39%;
+                    bottom: 11px;
+                }
+                #line-a {
+                    top: 80%;
+                    left: -57%;
+                    transform: rotate( 33deg);
+                }
+                .portfolio-thumb img {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    max-width: 283px;
+                }
+                .imagecont {
+                    display: flex;
+                    flex-wrap: wrap;
+                }
+                .iframe {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 24rem;
+                    height: 16rem;
+                }
+                .portfolioimg {
+                    margin-left: -174px;
+                    margin-top: 5rem;
+                }
+                .bigcard {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .hero {
+                    margin: 0;
+                    height: 29vh;
+                }
+                .hero1 {
+                    margin: 0;
+                    height: 63vh;
+                }
+                .hero2 {
+                    margin: 0;
+                    height: 45vh;
+                }
+                .hero3 {
+                    margin: 0;
+                    height: 70vh;
+                }
+                .inner h1,
+                .inner1 h1,
+                .inner2 h1,
+                .inner3 h1 {
+                    width: 165px;
+                    text-align: center;
+                    font-size: 23px;
+                    margin-left: 0;
+                }
+                .inner,
+                .inner1,
+                .inner2,
+                .inner3 {
+                    margin-left: 0;
+                    width: 22rem;
+                    height: 14rem;
+                }
+                body .footer .bubbles {
+                    top: 27%;
+                }
+            }

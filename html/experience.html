@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/experi.css" class="css">
+    <link rel="stylesheet" href="../css/sprinkles.css">
+    <link rel="stylesheet" href="../css/newmedia.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+
+    <title>Experience</title>
+</head>
+
+<body>
+
+    <h1>PortFolio</h1>
+    
+      <div class='progress'>
+        <div class='progress_inner'>
+            <div class='progress_inner__step'>
+                <label for='step-1'>Education</label>
+        </div>
+        <div class='progress_inner__step'>
+            <label for='step-2' id="addrole1"></label>
+        </div>
+        <div class='progress_inner__step'>
+            <label for='step-3' id="addrole2"></label>
+        </div>
+        <div class='progress_inner__step'>
+            <label for='step-4' id="addrole3"></label>
+        </div>
+        <div class='progress_inner__step'>
+            <button id="jobvisible" onclick="jobvisible()"> <label for='step-5'></label>Present</button>
+        </div>
+        <input checked='checked' id='step-1' name='step' type='radio' style="display: none;">
+        <input id='step-2' name='step' type='radio'>
+        <input id='step-3' name='step' type='radio'>
+        <input id='step-4' name='step' type='radio'>
+        <input id='step-5' name='step' type='radio'>
+        <div class='progress_inner__bar'></div>
+        <div class='progress_inner__bar--set'></div>
+        <div class='progress_inner__tabs' id="addExperience">
+            <div class='tab tab-0'>
+                <pre style="color: aliceblue;">  University Institute of Technology, RGPV
+            Degree Name :b.tech
+            brance :Computer Science
+            2019 – 2023</pre>
+                <pre style="color: aliceblue;">  University Institute of Technology, RGPV
+            Degree Name :10th
+            brance :Computer Science
+            2019 – 2023</pre>
+            </div>
+
+            <div class='tab tab-1' id="addtab1">
+
+            </div>
+            <div class='tab tab-2' id="addtab2">
+
+            </div>
+            <div class='tab tab-3' id="addtab3">
+
+            </div>
+            <div class='tab tab-4' id="addtab4">
+
+            </div>
+
+
+        </div>
+        <div class='progress_inner__status'>
+            <div class='box_base'></div>
+            <div class='box_lid'></div>
+            <div class='box_ribbon'></div>
+            <div class='box_bow'>
+                <div class='box_bow__left'></div>
+                <div class='box_bow__right'></div>
+            </div>
+            <div class='box_item'></div>
+            <div class='box_tag'></div>
+            <div class='box_string'></div>
+        </div>
+        </div>
+        </div>
+
+
+    <footer>
+        <svg viewBox="0 0 120 28">
+             <defs> 
+               <mask id="xxx">
+                 <circle cx="7" cy="12" r="40" fill="#fff" />
+               </mask>
+               
+               <filter id="goo">
+                  <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+                  <feColorMatrix in="blur" mode="matrix" values="
+                       1 0 0 0 0  
+                       0 1 0 0 0  
+                       0 0 1 0 0  
+                       0 0 0 13 -9" result="goo" />
+                  <feBlend in="SourceGraphic" in2="goo" />
+                  </filter>
+                 <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+              </defs> 
+            
+               <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2" ></use> 
+               <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0" ></use>
+             
+              <g class="topball">
+              <circle class="ball" cx="110" cy="8" r="4" stroke="none" stroke-width="0" fill="red" />
+            
+                <g class="arrow">
+                <polyline class="" points="108,8 110,6 112,8" fill="none"  />
+                <polyline class="" points="110,6 110,10.5" fill="none"  />
+                </g>
+                
+              </g>
+              <g class="gooeff">
+              <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
+              <circle class="drop drop2" cx="25" cy="2.5" r="1.5"  />
+              <circle class="drop drop3" cx="16" cy="2.8" r="1.2"  />
+                <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+              
+              
+            </svg>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+   
+
+</body>
+
+</html>
